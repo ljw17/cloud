@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud" />
+        <module name="customer" />
         <module name="eureka" />
+        <module name="provider" />
       </profile>
     </annotationProcessing>
   </component>
