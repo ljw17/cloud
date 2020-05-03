@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="commons" />
+        <module name="consul-customer" />
+        <module name="consul-provider" />
         <module name="customer" />
         <module name="eureka" />
+        <module name="hystrix" />
         <module name="provider" />
       </profile>
     </annotationProcessing>
